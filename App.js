@@ -68,12 +68,23 @@ document.write("<table border='1px'> "+"<tr>"+"<th>"+"Subject" +"</th>"+ "<th>"+
 if(cityName == "karachi"){
     alert('"Welcome to the city of lights"');
     }*/
-    /*var gender = prompt("Enter Your Gender");
+ /*var gender = prompt("Enter Your Gender");
     if(gender == "male"){
         alert("Good morning" + " " + "Sir")
     }if(gender == "female"){
         alert("Good morning" + " " + "Ma'am")
     }*/
+   var userInpColor1 = prompt('Enter your color name');
+   if (userInpColor1 == "Red") {
+     alert("Must stop");
+     }
+     if (userInpColor1 == "Yellow") {
+       alert("Ready to move");
+       }
+       if (userInpColor1 == "Green") {
+         alert("move now")
+ }
+        
    
         
 

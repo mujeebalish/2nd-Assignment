@@ -74,10 +74,101 @@ if(cityName == "karachi"){
     }if(gender == "female"){
         alert("Good morning" + " " + "Ma'am")
     }*/
-   
+   /*var userInpColor1 = prompt('Enter your color name');
+        if (userInpColor1 == "Red") {
+          alert("Must stop");
+        }
+        if (userInpColor1 == "Yellow") {
+          alert("Ready to move");
+        }
+        if (userInpColor1 == "Green") {
+          alert("Move now")
+        };
+        var userInpfuil = prompt('Enter remaining fuil');
+        if (userInpfuil < 0.25) {
+          alert('"please refill fuil in your car"')
+        }*/
+       /*var patien1 = +prompt("Enter Number 0_10")
+       if(++patien1 === 2){
+         alert("come in")
+        }
+        var patien2 = +prompt("Enter Number 0_10")
+        if(patien2++ === 1){
+          alert("wait for 5 minutes");
+        }
+        var patien3 = +prompt("Enter Number 0_10")
+        if(patien3++ === 3){
+          alert("wait for 10 minutes")
+       }*/
+       /*     var pakistan = +prompt("Enter Pakistan Score")
+       var indiaScore = 250;
+       var pakistanScored = pakistan; 
+       if(pakistanScored === ++indiaScore){
+         alert("Pakistan win")
+        }*/
+        /*var pakistan = +prompt("Enter Pakistan Score")
+       var indiaScore = 250;
+       var pakistanScored = pakistan; 
+       if(pakistanScored === indiaScore++){
+         alert("Match tied")
+        }*/
+       /*var laborPayment = 30000;
+       var laborEidi = 5000;
+       var totalLrRecieved = 35000;
+       if(totalLrRecieved === laborPayment + laborEidi){
+        alert("The payment equals");
+       }
+       var labor5Salary =1000;
+       var lbor6Salary = 800;
+       if(lbor6Salary < labor5Salary){
+        alert("Labor6 salary is less then Labor5 salary")
+       }*/
+        document.write("<h1>" + "Marks Sheet" + "</h1>" + "<br>" + "<br>");
+        var studentHtmlInp = +prompt("Enter your html obtaind mark");
+        var studentCssInp = +prompt("Enter your css obtaind mark");
+        var studentJavaScriptInp = +prompt("Enter your javascript obtaind mark");
+        var studentTotalMarks = +prompt("Enter Total Marks");
+        var studentTotal_OB_M = studentHtmlInp+studentCssInp+studentJavaScriptInp;
+        var total_Marks = studentTotalMarks;
+        var studentPercentage = (studentTotal_OB_M / total_Marks)*100;
+        var percentageToFixed =studentPercentage.toFixed(2);
+        var grade = "A_one";
+        var remarks = "Excellent" 
+        if(studentPercentage >= 80){
+            document.write("Total Marks :" + " " + total_Marks + "<br>");
+            document.write("Marks Obtaind :" + " " +  studentTotal_OB_M  + "<br>");
+            document.write("Percentage :" + " " + percentageToFixed + "<br>");
+            document.write("Grade :" + " " + grade + "<br>");
+                document.write("Remarks :" + " " +  remarks + "<br>");
+        }
+
+
+        var studentHtmlInp = +prompt("Enter your html obtaind mark");
+        var studentCssInp = +prompt("Enter your css obtaind mark");
+        var studentJavaScriptInp = +prompt("Enter your javascript obtaind mark");
+        var studentTotalMarks = +prompt("Enter Total Marks");
+        var studentTotal_OB_M = studentHtmlInp+studentCssInp+studentJavaScriptInp;
+        var total_Marks = studentTotalMarks;
+        var studentPercentage = (studentTotal_OB_M / total_Marks)*100;
+        var percentageToFixed =studentPercentage.toFixed(2);
+        var grade = "A";
+        var remarks = "Good" 
+        if(studentPercentage >= 70){
+            document.write("Total Marks :" + " " + total_Marks + "<br>");
+            document.write("Marks Obtaind :" + " " +  studentTotal_OB_M  + "<br>");
+            document.write("Percentage :" + " " + percentageToFixed + "<br>");
+            document.write("Grade :" + " " + grade + "<br>");
+                document.write("Remarks :" + " " +  remarks + "<br>");
+        }
+           
+
+    
+
         
-
-
+        
+           
+           
+           
           
 
 

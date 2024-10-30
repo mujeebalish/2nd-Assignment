@@ -68,93 +68,14 @@ document.write("<table border='1px'> "+"<tr>"+"<th>"+"Subject" +"</th>"+ "<th>"+
 if(cityName == "karachi"){
     alert('"Welcome to the city of lights"');
     }*/
-    /*var gender = prompt("Enter Your Gender");
+ /*var gender = prompt("Enter Your Gender");
     if(gender == "male"){
         alert("Good morning" + " " + "Sir")
     }if(gender == "female"){
         alert("Good morning" + " " + "Ma'am")
     }*/
-        /*var userInpColor1 = prompt('Enter your color name');
-        if (userInpColor1 == "Red") {
-          alert("Must stop");
-        }
-        if (userInpColor1 == "Yellow") {
-          alert("Ready to move");
-        }
-        if (userInpColor1 == "Green") {
-          alert("Move now")
-        };
-        var userInpfuil = prompt('Enter remaining fuil');
-        if (userInpfuil < 0.25) {
-          alert('"please refill fuil in your car"')
-        }*/
-       /*var patien1 = +prompt("Enter Number 0_10")
-       if(++patien1 === 2){
-         alert("come in")
-        }
-        var patien2 = +prompt("Enter Number 0_10")
-        if(patien2++ === 1){
-          alert("wait for 5 minutes");
-        }
-        var patien3 = +prompt("Enter Number 0_10")
-        if(patien3++ === 3){
-          alert("wait for 10 minutes")
-       }*/
-       /*     var pakistan = +prompt("Enter Pakistan Score")
-       var indiaScore = 250;
-       var pakistanScored = pakistan; 
-       if(pakistanScored === ++indiaScore){
-         alert("Pakistan win")
-        }*/
-        /*var pakistan = +prompt("Enter Pakistan Score")
-       var indiaScore = 250;
-       var pakistanScored = pakistan; 
-       if(pakistanScored === indiaScore++){
-         alert("Match tied")
-        }*/
-       /*var laborPayment = 30000;
-       var laborEidi = 5000;
-       var totalLrRecieved = 35000;
-       if(totalLrRecieved === laborPayment + laborEidi){
-        alert("The payment equals");
-       }
-       var labor5Salary =1000;
-       var lbor6Salary = 800;
-       if(lbor6Salary < labor5Salary){
-        alert("Labor6 salary is less then Labor5 salary")
-       }*/
-     document.write("<h1>" + "Marks Sheet" + "</h1>" + "<br>" + "<br>");
-     var htmlTotalMarks = 100;
-     var cssTotalMarks = 100;
-     var javaScriptTotalMarks = 100;
-     var grade;
-     var remarks;
-     var total_Marks = htmlTotalMarks+cssTotalMarks+javaScriptTotalMarks;
-     var studentHtmlInp = +prompt("Enter your html obtaind mark");
-     var studentCssInp = +prompt("Enter your css obtaind mark");
-     var studentJavaScriptInp = +prompt("Enter your javascript obtaind mark");
-     var studentTotal_OB_M = studentHtmlInp+studentCssInp+studentJavaScriptInp;
-     var studentPercentage = (studentTotal_OB_M / total_Marks)*100;
-     if(studentPercentage >= 80){
-      alert(grade = "A+")
-      alert(remarks = "Excellent")
-     }
-     document.write("Total Marks :" + " " + total_Marks + "<br>");
-     document.write("Marks Obtaind :" + " " +  studentTotal_OB_M  + "<br>");
-     document.write("Percentage :" + " " + studentPercentage + "<br>");
-     document.write("Grade :" + " " + grade + "<br>");
-     document.write("Remarks :" + " " +  remarks + "<br>");
-
-
-     
-
-      
-      
    
         
-        
-          
-
 
 
           

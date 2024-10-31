@@ -124,42 +124,65 @@ if(cityName == "karachi"){
         alert("Labor6 salary is less then Labor5 salary")
        }*/
         document.write("<h1>" + "Marks Sheet" + "</h1>" + "<br>" + "<br>");
-        var studentHtmlInp = +prompt("Enter your html obtaind mark");
-        var studentCssInp = +prompt("Enter your css obtaind mark");
-        var studentJavaScriptInp = +prompt("Enter your javascript obtaind mark");
+        var studentHtmlInp = +prompt("Enter your subject 1 obtaind mark");
+        var studentCssInp = +prompt("Enter your subject 2 obtaind mark");
+        var studentJavaScriptInp = +prompt("Enter your subject 3 obtaind mark");
         var studentTotalMarks = +prompt("Enter Total Marks");
         var studentTotal_OB_M = studentHtmlInp+studentCssInp+studentJavaScriptInp;
         var total_Marks = studentTotalMarks;
         var studentPercentage = (studentTotal_OB_M / total_Marks)*100;
-        var percentageToFixed =studentPercentage.toFixed(2);
-        var grade = "A_one";
-        var remarks = "Excellent" 
-        if(studentPercentage >= 80){
-            document.write("Total Marks :" + " " + total_Marks + "<br>");
-            document.write("Marks Obtaind :" + " " +  studentTotal_OB_M  + "<br>");
-            document.write("Percentage :" + " " + percentageToFixed + "<br>");
-            document.write("Grade :" + " " + grade + "<br>");
-                document.write("Remarks :" + " " +  remarks + "<br>");
+        var percentageToFixed =studentPercentage.toFixed(1);
+        document.write("Total Marks :" + " " + total_Marks + "<br>");
+        document.write("Marks Obtaind :" + " " +  studentTotal_OB_M  + "<br>");
+        document.write("Percentage :" + " " + percentageToFixed + "%" + "<br>");
+        
+        if(percentageToFixed >= 90 && percentageToFixed < 101){
+          document.write("Grade : A+" + "<br>" + "Remarks : Excellent")  
         }
+        if(percentageToFixed < 90 && percentageToFixed >= 80){
+          document.write("Grade : A" + "<br>" + "Remarks :  Good")  
+        }
+        if(percentageToFixed < 80 && percentageToFixed>= 70){
+          document.write("Grade : B" + "<br>" + "Remarks :  Not bad")   
+        }
+        if(percentageToFixed < 70 && percentageToFixed >= 60){
+          document.write("Grade : C" + "<br>" + "Remarks: You need to improve")  
+        }
+        if(percentageToFixed < 60 && percentageToFixed >= 50){
+          document.write("Grade : Fail" + "<br>" + "Remarks : Sorry")  
+        }
+         
+       
 
 
-        var studentHtmlInp = +prompt("Enter your html obtaind mark");
-        var studentCssInp = +prompt("Enter your css obtaind mark");
-        var studentJavaScriptInp = +prompt("Enter your javascript obtaind mark");
-        var studentTotalMarks = +prompt("Enter Total Marks");
-        var studentTotal_OB_M = studentHtmlInp+studentCssInp+studentJavaScriptInp;
-        var total_Marks = studentTotalMarks;
-        var studentPercentage = (studentTotal_OB_M / total_Marks)*100;
-        var percentageToFixed =studentPercentage.toFixed(2);
-        var grade = "A";
-        var remarks = "Good" 
-        if(studentPercentage >= 70){
-            document.write("Total Marks :" + " " + total_Marks + "<br>");
-            document.write("Marks Obtaind :" + " " +  studentTotal_OB_M  + "<br>");
-            document.write("Percentage :" + " " + percentageToFixed + "<br>");
-            document.write("Grade :" + " " + grade + "<br>");
-                document.write("Remarks :" + " " +  remarks + "<br>");
-        }
+
+        
+
+               
+
+
+
+
+                 
+                 
+                 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
            
 
     

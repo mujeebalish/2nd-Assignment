@@ -15,7 +15,7 @@ num1--;
 document.write("The value of num1-- is:" + " " + 101 + "<br>");
 document.write("After post decrement. now The value of num1-- is:" + " " + 100 + "<br>" + "<br>");*/
 /*var userGreet = prompt("Enter you name:");
-var welcome = 
+var welcome =
 document.write("welcome to AlishWDev World" + " " + userGreet);*/
                 // Multiplication Table
 /*document.write("<h3>"+"Multiplication Table"+"<h3>"+"<br>");
@@ -35,7 +35,7 @@ document.write(userNumber + "x" + "1"+"="+ mulT1 +"<br>"+userNumber + "x" + "2"+
 );*/
 
 /*//Default Response.
-var defultResponse = 
+var defultResponse =
 var mulT1 = userInpNmbr*1;
 var mulT2 = userInpNmbr*2;
 var mulT3 = userInpNmbr*3;
@@ -102,13 +102,13 @@ if(cityName == "karachi"){
        }*/
        /*     var pakistan = +prompt("Enter Pakistan Score")
        var indiaScore = 250;
-       var pakistanScored = pakistan; 
+       var pakistanScored = pakistan;
        if(pakistanScored === ++indiaScore){
          alert("Pakistan win")
         }*/
         /*var pakistan = +prompt("Enter Pakistan Score")
        var indiaScore = 250;
-       var pakistanScored = pakistan; 
+       var pakistanScored = pakistan;
        if(pakistanScored === indiaScore++){
          alert("Match tied")
         }*/
@@ -123,7 +123,7 @@ if(cityName == "karachi"){
        if(lbor6Salary < labor5Salary){
         alert("Labor6 salary is less then Labor5 salary")
        }*/
-        document.write("<h1>" + "Marks Sheet" + "</h1>" + "<br>" + "<br>");
+        /*document.write("<h1>" + "Marks] Sheet" + "</h1>" + "<br>" + "<br>");
         var studentHtmlInp = +prompt("Enter your subject 1 obtaind mark");
         var studentCssInp = +prompt("Enter your subject 2 obtaind mark");
         var studentJavaScriptInp = +prompt("Enter your subject 3 obtaind mark");
@@ -135,64 +135,73 @@ if(cityName == "karachi"){
         document.write("Total Marks :" + " " + total_Marks + "<br>");
         document.write("Marks Obtaind :" + " " +  studentTotal_OB_M  + "<br>");
         document.write("Percentage :" + " " + percentageToFixed + "%" + "<br>");
-        
+
         if(percentageToFixed >= 90 && percentageToFixed < 101){
-          document.write("Grade : A+" + "<br>" + "Remarks : Excellent")  
+          document.write("Grade : A+" + "<br>" + "Remarks : Excellent")
         }
         if(percentageToFixed < 90 && percentageToFixed >= 80){
-          document.write("Grade : A" + "<br>" + "Remarks :  Good")  
+          document.write("Grade : A" + "<br>" + "Remarks :  Good")
         }
         if(percentageToFixed < 80 && percentageToFixed>= 70){
-          document.write("Grade : B" + "<br>" + "Remarks :  Not bad")   
+          document.write("Grade : B" + "<br>" + "Remarks :  Not bad")
         }
         if(percentageToFixed < 70 && percentageToFixed >= 60){
-          document.write("Grade : C" + "<br>" + "Remarks: You need to improve")  
+          document.write("Grade : C" + "<br>" + "Remarks: You need to improve")
         }
         if(percentageToFixed < 60 && percentageToFixed >= 50){
-          document.write("Grade : Fail" + "<br>" + "Remarks : Sorry")  
-        }
-         
-       
+          document.write("Grade : Fail" + "<br>" + "Remarks : Sorry")
+        }*/
+       var userInpSecretNum = parseint(prompt("Enter the secret number"))
+       var secrectNumber = Math.random()*10+1;
+       var mathFloor = Math.floor(secrectNumber);
+       if(userInpSecretNum == mathFloor)
+       console.log(mathFloor);
 
 
 
-        
-
-               
 
 
 
 
-                 
-                 
-                 
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-           
 
-    
 
-        
-        
-           
-           
-           
-          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

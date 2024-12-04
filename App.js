@@ -151,11 +151,14 @@ if(cityName == "karachi"){
         if(percentageToFixed < 60 && percentageToFixed >= 50){
           document.write("Grade : Fail" + "<br>" + "Remarks : Sorry")
         }*/
-       var userInpSecretNum = parseint(prompt("Enter the secret number"))
+       var userInpSecretNum = parseInt(prompt("Enter the secret number"))
        var secrectNumber = Math.random()*10+1;
        var mathFloor = Math.floor(secrectNumber);
-       if(userInpSecretNum == mathFloor)
-       console.log(mathFloor);
+       if(userInpSecretNum == mathFloor) {
+        alert("The answer is correct")
+       }
+          console.log(mathFloor);
+
 
 
 

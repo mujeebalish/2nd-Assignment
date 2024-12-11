@@ -151,13 +151,31 @@ if(cityName == "karachi"){
         if(percentageToFixed < 60 && percentageToFixed >= 50){
           document.write("Grade : Fail" + "<br>" + "Remarks : Sorry")
         }*/
+      //  Guess game:
        var userInpSecretNum = parseInt(prompt("Enter the secret number"))
        var secrectNumber = Math.random()*10+1;
        var mathFloor = Math.floor(secrectNumber);
        if(userInpSecretNum == mathFloor) {
         alert("The answer is correct")
+      }
+      else if (userInpSecretNum == +mathFloor) {
+        alert("Close enough to the correct answer")
        }
-          console.log(mathFloor);
+       else{
+        alert("Please enter a number")
+       }
+      //
+      /* var userInpSecretNum = parseInt(prompt("Enter the secret number"))
+       var secrectNumber = Math.random()*10+1;
+       var mathFloor = Math.floor(secrectNumber);
+       if(userInpSecretNum == mathFloor) {
+        alert("The answer is correct")
+      }
+      else if (userInpSecretNum == +mathFloor) {
+        alert("Close enough to the correct answer")
+       }*/
+
+
 
 
 

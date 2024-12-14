@@ -152,28 +152,78 @@ if(cityName == "karachi"){
           document.write("Grade : Fail" + "<br>" + "Remarks : Sorry")
         }*/
       //  Guess game:
-       var userInpSecretNum = parseInt(prompt("Enter the secret number"))
-       var secrectNumber = Math.random()*10+1;
-       var mathFloor = Math.floor(secrectNumber);
-       if(userInpSecretNum == mathFloor) {
-        alert("The answer is correct")
+      /* var secrectNumber = Math.floor(Math.random()*10+1);
+       var userInpSecretNum = parseInt(prompt("Enter your guess (1-10)"));
+       if(userInpSecretNum === secrectNumber) {
+        alert("Bingo! Correct answer")
       }
-      else if (userInpSecretNum == +mathFloor) {
+      else if (userInpSecretNum === secrectNumber -1 ) {
         alert("Close enough to the correct answer")
        }
        else{
-        alert("Please enter a number")
-       }
-      //
-      /* var userInpSecretNum = parseInt(prompt("Enter the secret number"))
-       var secrectNumber = Math.random()*10+1;
-       var mathFloor = Math.floor(secrectNumber);
-       if(userInpSecretNum == mathFloor) {
-        alert("The answer is correct")
-      }
-      else if (userInpSecretNum == +mathFloor) {
-        alert("Close enough to the correct answer")
+        alert(`Sorry, that's not correct. The secret number was ${secrectNumber}`)
        }*/
+
+      // Number divisible by 3
+       /* var userInpNum = parseInt(prompt("Enter a number:"));
+       if(isNaN(userInpNum)) {
+        alert("Please enter a valide number")
+        }
+        else if(userInpNum % 3 === 0) {
+          alert("The number is divisible by 3");
+          }
+          else{
+            alert("The number is not divisible by 3");
+        }*/
+      //  Weather checking
+       /* var userNum = parseInt(prompt("Please enter a number (10-50) "))
+       if(isNaN(userNum)) {
+         alert("Please enter a valide number")
+        }
+        else if(userNum >= 40) {
+          alert("It's too hot outside.")
+        }
+        else if(userNum >= 30) {
+          alert("The weather today is normal.")
+        }
+        else if(userNum >= 20) {
+          alert("Today's weather is cool.")
+        }
+        else if(userNum >= 10) {
+          alert("OMG! Today's weather is so cool .")
+        }*/
+      //  Calculator
+        var userNum1 = parseInt(prompt("Enter 1st number"))
+        var userNum2 = parseInt(prompt("Enter 2nd number"))
+        var operation = prompt("Enter operation (+,-,*,/,%): ");
+        if(isNaN(userNum1,userNum2)) {
+          alert("Please enter a valide number")
+        }
+        else if (userOperator === "+") {
+          alert(userNum1 + userNum2)
+        }
+        else if (userOperator === "-") {
+          alert(userNum1 - userNum2)
+        }
+        else if (userOperator === "*") {
+          alert(userNum1 * userNum2)
+        }
+        else if (userOperator === "/") {
+          alert(userNum1 / userNum2)
+        }
+        else if (userOperator === "%") {
+          alert(userNum1 % userNum2)
+        }
+
+
+
+
+
+
+
+
+
+
 
 
 

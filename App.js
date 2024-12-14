@@ -214,6 +214,7 @@ if(cityName == "karachi"){
         else if (userOperator === "%") {
           alert(userNum1 % userNum2)
         }
+        else if (operation) {}
 
 
 

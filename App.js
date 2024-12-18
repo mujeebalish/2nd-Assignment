@@ -193,39 +193,68 @@ if(cityName == "karachi"){
           alert("OMG! Today's weather is so cool .")
         }*/
       //  Calculator
-        var userNum1 = parseInt(prompt("Enter 1st number"))
+        /*var userNum1 = parseInt(prompt("Enter 1st number"))
         var userNum2 = parseInt(prompt("Enter 2nd number"))
         var operation = prompt("Enter operation (+,-,*,/,%): ");
         if(isNaN(userNum1,userNum2)) {
           alert("Please enter a valide number")
         }
-        else if (userOperator === "+") {
+        else if (operation === "+") {
           alert(userNum1 + userNum2)
         }
-        else if (userOperator === "-") {
+        else if (operation === "-") {
           alert(userNum1 - userNum2)
         }
-        else if (userOperator === "*") {
+        else if (operation === "*") {
           alert(userNum1 * userNum2)
         }
-        else if (userOperator === "/") {
+        else if (operation === "/") {
           alert(userNum1 / userNum2)
         }
-        else if (userOperator === "%") {
+        else if (operation === "%") {
           alert(userNum1 % userNum2)
-        }
-        else if (operation) {}
-
-
-
-
-
-
-
-
-
-
-
+        }*/
+      //  IF ELSE AND ELSE IF STATEMENT,TESTING SET OF CONDITIONS
+       /*var char =  prompt("Enter a character");
+       var asciiCode = char.charCodeAt();
+       console.log(asciiCode.);*/
+      /* var firsNum = +prompt("Enter first number");
+       var secondNum = +prompt("Enter second number");
+       if(firsNum >secondNum) {
+        alert(firsNum + " " + "is" + " " + "larger then" + " " + secondNum);
+      }
+      else if(secondNum > firsNum) {
+        alert(secondNum + " " + "is" + " "  + "larger then" + " " + firsNum);
+      }
+      else{
+        alert(firsNum + " " + "is" + " "  + "equal with" + " " + secondNum);
+      }*/
+    //  State of Number
+   /* var stateNum = parseInt(prompt("Enter a number: "));
+   if(isNaN(stateNum)) {
+    alert("Invalid input. Please enter a number")
+    }
+     else if(stateNum > 0) {
+      alert("The number is positive")
+    }
+    else if(stateNum < 0) {
+      alert("The number is negative")
+    }
+    else {
+      alert("The number is zero")
+  }*/
+ //  Vowel charactor
+  var char = prompt("Enter a charactor: ");
+  if(char.length !== 1) {
+    alert("Input must be a single charactor");
+  }else{
+    var vowel ='aeiouAEIOU';
+   if(vowel.includes(char)) {
+    alert("The charactor is a vowel.")
+   } else{
+    alert("The charactor is not a vowel.")
+   }
+  }
 
 
 

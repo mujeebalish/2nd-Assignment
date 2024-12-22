@@ -244,7 +244,7 @@ if(cityName == "karachi"){
       alert("The number is zero")
   }*/
  //  Vowel charactor
-  var char = prompt("Enter a charactor: ");
+  /*var char = prompt("Enter a charactor: ");
   if(char.length !== 1) {
     alert("Input must be a single charactor");
   }else{
@@ -254,7 +254,19 @@ if(cityName == "karachi"){
    } else{
     alert("The charactor is not a vowel.")
    }
-  }
+  }*/
+ var password = "secret123";
+ var userPassword = prompt("Enter your password");
+ if(userPassword === "") {
+  alert("Please enter your password");
+} else if (userPassword === password) {
+  alert("Correct! The password you enterd matches the original password");
+}else {
+  alert("Incorrect password")
+}
+
+
+
 
 
 

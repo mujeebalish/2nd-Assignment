@@ -255,7 +255,7 @@ if(cityName == "karachi"){
     alert("The charactor is not a vowel.")
    }
   }*/
- var password = "secret123";
+ /*var password = "secret123";
  var userPassword = prompt("Enter your password");
  if(userPassword === "") {
   alert("Please enter your password");
@@ -263,18 +263,25 @@ if(cityName == "karachi"){
   alert("Correct! The password you enterd matches the original password");
 }else {
   alert("Incorrect password")
-}
+}*/
+// Time slot:
+/* var timeInp = parseInt(prompt("Enter the time"));
+if(timeInp >= 0000 && timeInp < 1200) {
+alert("Good morning!")
+} else if (timeInp >= 1200 && timeInp < 1700) {
+  alert("Good afternoon!")
+}else if (timeInp >= 1700 && timeInp < 2100) {
+  alert("Good evening!")
+}else if (timeInp >= 2100 && timeInp <= 2359) {
+  alert("Good night!")
+} else{
+  alert("Please enter your time slot")
+} */
 
+  // ARRAYS
+  var studentNamesArray = [];
 
-
-
-
-
-
-
-
-
-
+  
 
 
 

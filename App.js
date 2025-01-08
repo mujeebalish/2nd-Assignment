@@ -279,9 +279,36 @@ alert("Good morning!")
 } */
 
   // ARRAYS
-  var studentNamesArray = [];
+  var studentarray = [{},{},{}];
+  var stringArray = ["Course","Web and mobile app","Institute","Smit"];
+  var rollNumber = 216279;
+  var boolean = [true,false];
+  var mixArray = ["studentName",["rollNumber",216279],studentobj = {name: "Mujeeb Rehman",}];
+  var educationData = ["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PhD"];
+  document.write(
+  "1)" + educationData [0] + "<br>" +
+  "2)" + educationData [1] + "<br>" +
+  "3)" + educationData [3] + "<br>" +
+  "4)" + educationData [4] + "<br>" +
+  "5)" + educationData [5] + "<br>" +
+  "6)" + educationData [6] + "<br>" +
+  "7)" + educationData [7] + "<br>"
+  );
+  var studentNames = ["Furqan","Azam","Numan"];
+  var studentScores = [467,344,340];
+  var totalScor = 500;
+  var firstStPercent = studentScores[0]/totalScor*100;
+  var secondtStPercent = studentScores[1]/totalScor*100;
+  var thStPercent = studentScores[2]/totalScor*100;
+  document.write(
+    "score of" + " " + " " + studentNames[0] + " " + "is" + " "  + studentScores[0] + "." + " "  + "Percentage"  + " " + firstStPercent + "%" + "<br>" +
+   "score of" + " " + " " + studentNames[1] + " " + "is" + " "  + studentScores[1] + "." + " "  + "Percentage"  + " " + secondtStPercent + "%" + "<br>" +
+   "score of" + " " + " " + studentNames[2] + " " + "is" + " "  + studentScores[2] + "." + " "  + "Percentage"  + " " + thStPercent + "%" + "<br>"
+  )
 
-  
+
+
+
 
 
 
